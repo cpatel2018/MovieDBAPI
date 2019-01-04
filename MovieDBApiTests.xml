@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Api suite" verbose="1" >
+    <test name="MovieDB Api" >
+        <classes>
+            <class name="com.sofi.moviedb.MovieDBGetAPITests"/>
+            <class name="com.sofi.moviedb.MovieDBPostAPITests"/>
+            <class name="com.sofi.moviedb.MovieDBNegativeTests"/>
+        </classes>
+    </test>
+</suite>
+
